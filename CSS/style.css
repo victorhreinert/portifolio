@@ -361,7 +361,7 @@ section {
 }
 
 .col-lg-8 {
-    padding: 20px;
+    padding: 10px;
     background-color: #f9f9f9;
     border-radius: 10px;
     
@@ -663,6 +663,14 @@ article .icon {
     justify-content: center;
     gap: 0.54rem;
     margin: 1rem 0;
+}
+
+.center-link {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
 }
 
 .contact-info-container p {
