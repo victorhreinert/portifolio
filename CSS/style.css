@@ -349,7 +349,7 @@ section {
 .img-fluid {
     float: left;
     margin-right: 20px; /* Adapte a margem conforme necessário */
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .container {

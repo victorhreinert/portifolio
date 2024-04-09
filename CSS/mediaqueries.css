@@ -147,6 +147,7 @@
     .img-fluid {
         max-width: 50%;
         height: auto;
+        margin-top: 41px;
     }
     #sobre{
         height: 120vh;
