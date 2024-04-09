@@ -7,7 +7,7 @@ Desenvolvido um site como meu portifólio, responsivo e dinâmico.
 
 ### 🌎 Como ficou?
 
-- __[Site Victor](https://victorhreinert.github.io/meu-portifolio/)__ - Acesse Aqui
+- __[Site Victor](https://victorhreinert.github.io/portifolio/)__ - Acesse Aqui
 
 
 
