@@ -31,7 +31,9 @@
     .arrow {
         display: none;
     }
-   
+    #profile .arrow-profile {
+        display: inline-block; /* ou display: block; dependendo do comportamento desejado */
+    }
     .arrow {
         position: absolute;
         right: 0;
