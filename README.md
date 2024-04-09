@@ -37,13 +37,13 @@ Acesse o <a>Website</a> e veja meu trabalho e qualificações.
 
 ## Características do Projeto HTML
 
--**Semântica clara**
--**Responsivo**
--**Acessível**
--**Interativo**
--**Otimizado**
--**Compatível com navegadores**
--**Facilmente mantido**
+- **Semântica clara**
+- **Responsivo**
+- **Acessível**
+- **Interativo**
+- **Otimizado**
+- **Compatível com navegadores**
+- **Facilmente mantido**
 
 <br>
 
@@ -52,7 +52,3 @@ Acesse o <a>Website</a> e veja meu trabalho e qualificações.
 
 - [@victorhreinert](https://github.com/victorhreinert)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> c9c09b4b32667da3d7db6b4f59aec86549c9fdc1

@@ -31,9 +31,15 @@
     .arrow {
         display: none;
     }
-    .btn-container {
-        margin-top: 10rem; /* Adicione um valor desejado aqui */
+    #profile .arrow-profile {
+        display: inline-block; /* ou display: block; dependendo do comportamento desejado */
     }
+    .arrow {
+        position: absolute;
+        right: 0;
+        bottom: 2.5rem;
+    }
+
     #socials-container{
         margin-top: 2rem;
     }
@@ -90,9 +96,13 @@
         font-size: 1.25rem;
     }
     .logo{
-        font-size: 1rem;
+        font-size: .7rem;
         background-color: #f9f9f9;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .hamburger-icon{
+        height: 20px;
+        width: 20px;
     }
     .nav-links{
         flex-direction: column;
