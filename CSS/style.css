@@ -658,11 +658,7 @@ article .icon {
 }
 
 .contact-info-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.54rem;
-    margin: 1rem 0;
+  
 }
 
 .center-link {
