@@ -204,7 +204,7 @@ section {
 }
 
 #sobre{
-    height: 165vh;
+    height: 105vh;
     margin-top: 6vh;
     margin-bottom: 8rem;
     position: relative;
@@ -253,7 +253,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
 }
 
@@ -467,7 +467,7 @@ h3,.title-lg .text-upper {
 
 #experiencia {
     position: relative;
-    height: 165vh;
+    height: 98vh;
   
 }
 
@@ -643,6 +643,14 @@ article .icon {
     /* Alterado para altura automática para se ajustar ao conteúdo */
     padding: 4rem 0;
     
+}
+
+.center-link {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
 }
 
 .contact-info-upper-container {
