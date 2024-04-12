@@ -303,6 +303,9 @@
     .details-container {
         padding: 0;
     }
+    .card-img-top{
+        width: 80%;
+    }
 
 }
 
@@ -311,4 +314,16 @@
             flex: 0 0 auto;
             width: 100%;
         }
+        
+    }
+    @media (max-width: 576px) {
+        #experiencia, #sobre {
+            height: 150vh;
+        }
+        footer nav {
+            height: 40vh;
+        }
+        #projetos {
+            margin-top: 97px; 
+        }        
     }

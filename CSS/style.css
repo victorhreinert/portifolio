@@ -349,7 +349,7 @@ section {
 .img-fluid {
     float: left;
     margin-right: 20px; /* Adapte a margem conforme necessário */
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .container {
@@ -361,7 +361,7 @@ section {
 }
 
 .col-lg-8 {
-    padding: 20px;
+    padding: 10px;
     background-color: #f9f9f9;
     border-radius: 10px;
     
@@ -465,9 +465,9 @@ h3,.title-lg .text-upper {
 
 /* Experiência */
 
-#experiencia {
+#experiencia{
     position: relative;
-    height: 98vh;
+    height: 105vh;
   
 }
 
@@ -632,7 +632,6 @@ article .icon {
 
 
 
-
 /* contatos */
 
 #contatos {
@@ -667,10 +666,16 @@ article .icon {
 
 .contact-info-container {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.center-link {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     align-items: center;
-    justify-content: center;
-    gap: 0.54rem;
-    margin: 1rem 0;
+
 }
 
 .contact-info-container p {
