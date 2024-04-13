@@ -350,6 +350,7 @@ section {
     float: left;
     margin-right: 20px; /* Adapte a margem conforme necessário */
     border-radius: 15px;
+    border-radius: 15px;
 }
 
 .container {
@@ -361,6 +362,7 @@ section {
 }
 
 .col-lg-8 {
+    padding: 10px;
     padding: 10px;
     background-color: #f9f9f9;
     border-radius: 10px;
@@ -665,6 +667,10 @@ article .icon {
 }
 
 .contact-info-container {
+  
+}
+
+.center-link {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -675,6 +681,7 @@ article .icon {
     flex-direction: column;
     align-content: center;
     align-items: center;
+
 
 }
 
