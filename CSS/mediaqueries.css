@@ -104,6 +104,9 @@
     #experiencia{
         height: 130vh;
     }
+    #projetos {
+        margin-top: 97px; 
+    }  
 
 }
 
@@ -322,8 +325,5 @@
         }
         footer nav {
             height: 40vh;
-        }
-        #projetos {
-            margin-top: 97px; 
-        }        
+        }      
     }
