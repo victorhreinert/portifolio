@@ -13,6 +13,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
    /*  display: block;  */
 }
 
+
 .background-image {
    
     background-image: url("../assets/background4.svg");
@@ -68,7 +69,8 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    /* height: 17vh; */
+    padding: 1rem 0; /* preenchimento para espaçamento interno */
 }
 
 .nav-links {
