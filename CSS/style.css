@@ -9,6 +9,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+    display: block; 
+}
+
 .background-image {
    
     background-image: url("../assets/background4.svg");
