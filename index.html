@@ -16,36 +16,38 @@
 </head>
 
 <body>
-    <div class="background-overlay">
-        <nav id="desktop-nav">
-            <div class="logo">Victor Hugo Reinert</div>
-            <div>
-                <ul class="nav-links">
-                    <li> <a href="#sobre">Sobre</a></li>
-                    <li> <a href="#experiencia">Experiencia</a></li>
-                    <li> <a href="#projetos">Projetos</a></li>
-                    <li> <a href="#contatos">Contatos</a></li>
-                </ul>
-            </div>
-        </nav>
-        
-        <nav id="hamburger-nav">
-            <div class="logo">Victor Hugo Reinert</div>
-            <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick="toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+     <header>
+        <div class="background-overlay">
+            <nav id="desktop-nav">
+                <div class="logo">Victor Hugo Reinert</div>
+                <div>
+                    <ul class="nav-links">
+                        <li> <a href="#sobre">Sobre</a></li>
+                        <li> <a href="#experiencia">Experiencia</a></li>
+                        <li> <a href="#projetos">Projetos</a></li>
+                        <li> <a href="#contatos">Contatos</a></li>
+                    </ul>
                 </div>
-                <div class="menu-links">
-                    <li> <a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
-                    <li> <a href="#experiencia" onclick="toggleMenu()">Experiencia</a></li>
-                    <li> <a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
-                    <li> <a href="#contatos" onclick="toggleMenu()">Contatos</a></li>
+            </nav>
+            
+            <nav id="hamburger-nav">
+                <div class="logo">Victor Hugo Reinert</div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-links">
+                        <li> <a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
+                        <li> <a href="#experiencia" onclick="toggleMenu()">Experiencia</a></li>
+                        <li> <a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+                        <li> <a href="#contatos" onclick="toggleMenu()">Contatos</a></li>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </div>
+            </nav>
+        </div>
+    </header>    
 
     
     <div class="background-image">
@@ -74,7 +76,7 @@
                         onclick="location.href='https://github.com/victorhreinert'">
                 </div>
             </div>
-            <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='./#sobre'" alt="Seta">
+            <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='#sobre'" alt="Seta">
         </section>
 
         <section id="sobre">
@@ -116,7 +118,7 @@
                 </div>
             </div>
 
-            <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='./#experiencia'" alt="Seta">
+            <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='#experiencia'" alt="Seta">
         </section>
 
 
@@ -269,7 +271,7 @@
                 </div>
             </div>
 
-            <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='./#projetos'" alt="Seta">
+            <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='#projetos'" alt="Seta">
 
 
         </section>
